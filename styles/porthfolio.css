@@ -67,7 +67,6 @@ main{
     
     max-width: 1140px;
     margin: 0 auto;
-    background: #FFF8F3;
     border-radius: 10px;
 
 }
@@ -76,6 +75,7 @@ main{
 .about{
     padding: 131px 156px ;
     margin-top: 130px;
+    background: #FFF8F3;
 
     
 }
@@ -108,4 +108,113 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+/* what i do section */
+
+.section-i-do{
+    margin-top: 130px;
+}
+.section-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding:0  130px ;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+   
+}
+.skill{
+    padding: 30px;
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+margin-bottom: 20px;
+}
+.skill img{
+    margin-bottom: 30px;
+}
+.skill-description{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+/* summary of resume */
+.resume{
+    margin-top: 130px;
+}
+.container{
+    display: flex;
+    gap: 71px;
+    margin-top: 130px;
+}
+.cont-title{
+    margin-bottom: 30px;
+    color: #474747;
+    font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+}
+.item-title{
+    color: #474747;
+    font-weight: 700;
+font-size: 25px;
+line-height: 34px;
+margin-bottom: 10px;
+}
+.item-sub{
+    color: #757575;
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+margin-bottom: 20px;
+}
+.item-description{
+    color: #757575;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+}
+hr{
+    margin:30px 0;
+    width: 558px;
+height: 0px;
+left: 230px;
+top: 3044px;
+border: 1px solid #D1D1D1;
+}
+.resume-button{
+    margin-top: 50px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+/* connect section */
+.connect{
+
+left: 0px;
+top: 3476px;
+
+background: #FFF8F3;
+padding: 130px 230px;
+display: flex;
+gap: 117px;
+}
+.c-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.c-p{
+    margin-bottom: 30px;
 }
